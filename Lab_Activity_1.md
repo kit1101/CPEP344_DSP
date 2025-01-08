@@ -71,3 +71,7 @@ The Discrete Fourier Transform (DFT) serves as a foundational tool within digita
 10.	What are separable transforms? 
 Separable transforms in Digital Signal Processing are mathematical operations that decompose multidimensional signals (like images or videos) into a series of one-dimensional operations. This decomposition significantly reduces computational complexity by allowing for faster processing and requiring less memory compared to non-separable methods. Examples include the Discrete Fourier Transform (DFT), Discrete Cosine Transform (DCT), and certain wavelet transforms, which are crucial for applications such as image compression, filtering, and analysis in various fields like medical imaging and seismic data processing.
 
+Exercise:
+
+1. Find 8-point DFT of the sequence x (n) = [1 2 3 4 4 3 2 1]
+To find the 8-point Discrete Fourier Transform (DFT) of the sequence x(n) = [1 2 3 4 4 3 2 1], you can use the DFT formula or MATLAB's built-in fft function. The DFT formula is: X(k) = ∑ n=0 N−1 x(n)e −j N 2πkn where N = 8, x(n) is the time-domain sequence, and X(k) is the frequency-domain sequence. You'll calculate the DFT for each k (from 0 to N-1) to obtain the 8-point DFT of the given sequence.
